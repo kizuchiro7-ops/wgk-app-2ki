@@ -554,10 +554,18 @@ nav::-webkit-scrollbar { display: none; }
   </div>
 
   <div class="video-grid">
-    <div style="text-align:center;padding:3rem 1rem;color:var(--text3);">
-      <div style="font-size:32px;margin-bottom:12px;">📹</div>
-      <div style="font-size:14px;font-weight:500;color:var(--text2);margin-bottom:6px;">講座アーカイブ動画を準備中です</div>
-      <div style="font-size:12px;">講座終了後、順次アップロードされます。</div>
+    <div class="video-card" data-vcat="archive">
+      <div class="video-thumb-wrap yt-lite" data-videoid="3o3CHW1afHw" data-title="20260610 子どもの歩き方と発育の学校 二期生 ママコース講義１アーカイブ" onclick="playVideo(this)" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;cursor:pointer;background:#1a1917;display:block;">
+        <img src="https://i.ytimg.com/vi/3o3CHW1afHw/hqdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/3o3CHW1afHw/mqdefault.jpg'" alt="20260610 子どもの歩き方と発育の学校 二期生 ママコース講義１アーカイブ" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;background:rgba(255,0,0,0.85);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+          <div style="width:0;height:0;border-style:solid;border-width:10px 0 10px 20px;border-color:transparent transparent transparent #fff;margin-left:4px;"></div>
+        </div>
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:6px 10px;background:linear-gradient(transparent,rgba(0,0,0,0.6));font-size:11px;color:#fff;line-height:1.4;">20260610 子どもの歩き方と発育の学校 二期生 ママコース講義１アーカイブ</div>
+      </div>
+      <div class="video-info">
+        <div class="video-title">子どもの歩き方と発育の学校 二期生 ママコース講義１アーカイブ</div>
+        <div class="video-date">2026年6月10日収録</div>
+      </div>
     </div>
   </div>
 
@@ -626,12 +634,54 @@ nav::-webkit-scrollbar { display: none; }
 
 
 
-  
-    <div style="text-align:center;padding:3rem 1rem;color:var(--text3);">
-      <div style="font-size:32px;margin-bottom:12px;">📚</div>
-      <div style="font-size:14px;font-weight:500;color:var(--text2);margin-bottom:6px;">講座マップを準備中です</div>
-      <div style="font-size:12px;">講座開始後、順次追加されます。</div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-block">
+    <div class="phase-label">Phase 1 &mdash; 基礎知識・撮影・解剖</div>
+    <div class="lesson-card p-teal" onclick="toggleCard(this)">
+      <div class="lesson-header">
+        <div class="lesson-num">1</div>
+        <div class="lesson-meta">
+          <div class="lesson-title">歩行分析と足の骨格発達</div>
+          <div class="lesson-tags">
+            <span class="tag tag-check">撮影チェック</span>
+            <span class="tag tag-key">足の疾患</span>
+            <span class="tag tag-qa">靴Q&amp;A</span>
+          </div>
+        </div>
+        <span class="chevron">&#8964;</span>
+      </div>
+      <div class="lesson-body">
+        <div class="tl-item"><span class="ts">03:04</span><span class="tl-text"><strong>受講生専用アプリ</strong>：症状別早見表など今後のコンテンツが格納される専用アプリの説明</span></div>
+        <div class="tl-item"><span class="ts">04:14</span><span class="tl-text"><strong>ログイン方法</strong>：パスワード「歩き方」で受講生専用ページにログイン</span></div>
+        <div class="tl-item"><span class="ts">06:31</span><span class="tl-text"><strong>アーカイブ＆タイムライン</strong>：講義後にアーカイブ動画＋タイムライン機能で効率よく復習できる</span></div>
+        <div class="tl-item"><span class="ts">07:42</span><span class="tl-text"><strong>実践記録機能</strong>：統合ワークを子どもに試した結果を記録・保存できる<span class="work-pill">ワーク</span></span></div>
+        <div class="tl-item"><span class="ts">10:24</span><span class="tl-text"><strong>撮影の基本①</strong>：変化を比較するため同じ場所・環境で定点撮影する</span></div>
+        <div class="tl-item"><span class="ts">11:13</span><span class="tl-text"><strong>撮影の基本②</strong>：カメラは子どもの骨盤の高さに合わせて座って撮影する</span></div>
+        <div class="tl-item"><span class="ts">11:46</span><span class="tl-text"><strong>撮影距離</strong>：10〜15m歩かせて「真ん中の10歩」を前方・後方・横から撮る</span></div>
+        <div class="tl-item"><span class="ts">15:28</span><span class="tl-text"><strong>靴底の記録</strong>：靴底のすり減り方・変形も写真に残すと歩き方の癖が分かる</span></div>
+        <div class="tl-item"><span class="ts">18:37</span><span class="tl-text"><strong>日本人と欧米人の違い</strong>：農耕民族由来の屈曲優位 vs 狩猟民族由来の伸展優位</span></div>
+        <div class="tl-item"><span class="ts">20:23</span><span class="tl-text"><strong>背骨S字カーブの形成</strong>：首すわり→お座り→ハイハイの順で粗大運動を経て形成される</span></div>
+        <div class="tl-item"><span class="ts">21:50</span><span class="tl-text"><strong>まるまる抱っこの注意</strong>：長時間スリングで丸め続けると自然なS字カーブ形成を阻害する可能性</span></div>
+        <div class="tl-item"><span class="ts">25:51</span><span class="tl-text"><strong>背骨のバランス</strong>：頸椎7＋腰椎5＝前カーブ12個、胸椎12＝後ろカーブ12個で拮抗</span></div>
+        <div class="tl-item"><span class="ts">32:45</span><span class="tl-text"><strong>足裏感覚ワーク</strong>：裸足で立ち足の指で床をクイクイと掴む<span class="work-pill">ワーク</span></span></div>
+        <div class="tl-item"><span class="ts">33:40</span><span class="tl-text"><strong>足の2階建て構造</strong>：1階（踵骨→小指側）＝安定・固定、2階（距骨→親指側）＝動かす・蹴り出す</span></div>
+        <div class="tl-item"><span class="ts">37:57</span><span class="tl-text"><strong>正しい歩行メカニズム</strong>：かかと外側で着地→親指側へ体重移動して蹴り出す2段階の動き</span></div>
+        <div class="tl-item"><span class="ts">40:11</span><span class="tl-text"><strong>子どもの骨の成長</strong>：軟骨が多く12〜14歳頃にようやく大人の骨として完成する</span></div>
+        <div class="tl-item"><span class="ts">41:46</span><span class="tl-text"><strong>幼児期の扁平足は正常</strong>：1〜4歳は舟状骨が未発達なため扁平足に見えるのは当たり前</span></div>
+        <div class="tl-item"><span class="ts">42:08</span><span class="tl-text"><strong>インソールの注意</strong>：骨ができていない時期に無理やりアーチを持ち上げると自然な成長を妨げる可能性</span></div>
+        <div class="tl-item"><span class="ts">44:06</span><span class="tl-text"><strong>Q&amp;A：まるまる抱っこ</strong>：成長に合わせて抗重力姿勢（カーブを作る）へ移行するタイミングが重要</span></div>
+        <div class="tl-item"><span class="ts">47:34</span><span class="tl-text"><strong>Q&amp;A：反り返り・夜泣き</strong>：反り返りが強いのは迷路反射などの残存による防衛反応。丸めるケアが有効</span></div>
+        <div class="tl-item"><span class="ts">52:38</span><span class="tl-text"><strong>Q&amp;A：扁平足</strong>：構造的扁平足 vs 機能的扁平足。機能的なものは筋力強化で改善可能</span></div>
+        <div class="tl-item"><span class="ts">59:23</span><span class="tl-text"><strong>足の疾患</strong>：有痛性外脛骨・ケーラー病・フライバーグ病・シーバー病・ジョーンズ骨折</span></div>
+        <div class="tl-item"><span class="ts">1:04:51</span><span class="tl-text"><strong>RICE処置</strong>：Rest安静・Ice冷却・Compression圧迫・Elevation挙上。湿布より氷でアイシングが正解<span class="work-pill">ワーク</span></span></div>
+        <div class="tl-item"><span class="ts">1:05:44</span><span class="tl-text"><strong>草履のメリット・デメリット</strong>：鼻緒で足指活性化◎／かかと固定されないため5歳頃までの長時間使用は非推奨</span></div>
+        <div class="tl-item"><span class="ts">1:09:01</span><span class="tl-text"><strong>靴底の硬さ選び</strong>：足が柔らかい人は安定感のある靴、足が硬い人は曲がりやすい靴。幼児期はかかとが第一条件</span></div>
+        <div class="tl-item"><span class="ts">1:22:47</span><span class="tl-text"><strong>サッカートレシューの弊害</strong>：幼児期から底が厚く硬いシューズを履き続けると足裏感覚が育たずシーバー病の原因に</span></div>
+        <div class="tl-item"><span class="ts">1:34:48</span><span class="tl-text"><strong>講座の目的</strong>：「脳幹を整え、体幹に繋げ、自然な発育を促す」。阻害要因を排除し脳と体を根本から育てる</span></div>
+      </div>
     </div>
+  </div>
 
 
   <div class="hint-box">
