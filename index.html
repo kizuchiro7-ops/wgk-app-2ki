@@ -538,6 +538,7 @@ nav::-webkit-scrollbar { display: none; }
     <button class="nav-tab" onclick="showTab('archive',this)">📹 アーカイブ</button>
     <button class="nav-tab" onclick="showTab('check',this)">症状チェック</button>
     <button class="nav-tab" onclick="showTab('video',this)">実践動画</button>
+    <button class="nav-tab" onclick="showTab('kids',this)">🎬 こども解説</button>
     <button class="nav-tab" onclick="showTab('record',this)">実践記録</button>
     <button class="nav-tab nav-tab-pro" onclick="showProTab(this)" id="pro-tab-btn">🔒 プロコース</button>
     <button class="nav-tab nav-tab-pro" onclick="showProArchiveTab(this)" id="pro-archive-tab-btn">🔒 Proアーカイブ</button>
@@ -893,6 +894,43 @@ nav::-webkit-scrollbar { display: none; }
 
 
 <!-- ════════════════ TAB 3: VIDEO ════════════════ -->
+<section class="section" id="tab-kids">
+  <div class="page-header">
+    <h1>🎬 こども解説動画</h1>
+    <p>お子さんの発育・発達をわかりやすく解説した動画です。ぜひご家族でご覧ください。</p>
+  </div>
+
+  <div class="video-grid">
+
+    <!-- 動画1：赤ちゃんの抱っこ -->
+    <div class="video-card">
+      <div class="video-thumb-wrap yt-lite" data-videoid="NUCaPXIzzWM" data-title="赤ちゃんの抱っこ：丸める vs 丸めない" onclick="playVideo(this)" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;cursor:pointer;background:#1a1917;display:block;">
+        <img src="https://i.ytimg.com/vi/NUCaPXIzzWM/hqdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/NUCaPXIzzWM/mqdefault.jpg'" alt="赤ちゃんの抱っこ：丸める vs 丸めない" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;background:rgba(255,0,0,0.88);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="8,5 19,12 8,19"/></svg>
+        </div>
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:6px 10px;background:linear-gradient(transparent,rgba(0,0,0,0.55));font-size:11px;color:#fff;line-height:1.4;">赤ちゃんの抱っこ：丸める vs 丸めない</div>
+      </div>
+      <div class="video-info">
+        <div class="video-title">赤ちゃんの抱っこ：丸める vs 丸めない</div>
+        <div class="video-date" style="font-size:11px;color:var(--text3);margin-top:2px;">監修：子どもの歩き方と発育の学校</div>
+        <div style="margin-top:8px;font-size:12px;color:var(--text2);line-height:1.7;">
+          ✅ 丸める抱っこのメリット・デメリット<br>
+          ✅ 丸めない抱っこのメリット・デメリット<br>
+          ✅ 幼児期の背骨への影響<br>
+          ✅ どう抱っこすればいいのか！
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hint-box" style="margin-top:1.5rem">
+    <strong>活用ヒント：</strong>動画を見た後は「講座マップ」のタイムスタンプと合わせて復習すると、より深く理解できます。
+  </div>
+</section>
+
+<!-- ════════════════ TAB: 実践動画 ════════════════ -->
 <section class="section" id="tab-video">
   <div class="page-header">
     <h1>実践動画ライブラリ</h1>
