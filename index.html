@@ -130,11 +130,13 @@ nav::-webkit-scrollbar { display: none; }
   user-select: none;
 }
 .lesson-num {
-  width: 30px; height: 30px;
+  width: 44px; height: 44px;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 12px; font-weight: 700;
+  font-size: 10px; font-weight: 700;
   flex-shrink: 0;
+  text-align: center; line-height: 1.2;
+  white-space: nowrap;
 }
 .lesson-meta { flex: 1; min-width: 0; }
 .lesson-title { font-size: 13px; font-weight: 500; }
@@ -739,7 +741,7 @@ nav::-webkit-scrollbar { display: none; }
     <div class="phase-label">Phase 1 &mdash; 基礎知識・撮影・解剖</div>
     <div class="lesson-card p-teal" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">1</div>
+        <div class="lesson-num">講座<br>1</div>
         <div class="lesson-meta">
           <div class="lesson-title">歩行分析と足の骨格発達</div>
           <div class="lesson-tags">
@@ -789,7 +791,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-purple" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">2</div>
+        <div class="lesson-num">講座<br>2</div>
         <div class="lesson-meta">
           <div class="lesson-title">脳幹・原始反射①（FPR・モロー・屈曲・把握）</div>
           <div class="lesson-tags">
@@ -801,35 +803,35 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① 前回の復習：歩行分析と筋肉の連動</div>
+        <div class="tl-section">講座2-1｜前回の復習：歩行分析と筋肉の連動</div>
         <div class="tl-item"><span class="ts">0:02:24</span><span class="tl-text"><strong>歩行動画チェックポイント</strong>：上半身の傾き・腕の振り・骨盤の動き・足首の倒れ込み（外反扁平足）・つま先着地を観察する</span></div>
         <div class="tl-item"><span class="ts">0:02:24</span><span class="tl-text"><strong>筋肉の拮抗作用（相反神経支配）</strong>：大殿筋が働く時は腸腰筋が休む。筋肉が交互に働くのが正しい歩行</span></div>
         <div class="tl-item"><span class="ts">0:02:24</span><span class="tl-text"><strong>つま先着地の弊害</strong>：前脛骨筋が使われずふくらはぎ（腓腹筋・ヒラメ筋）ばかり収縮して短縮する</span></div>
         <div class="tl-item"><span class="ts">0:02:24</span><span class="tl-text"><strong>ニーイン・トゥーアウト</strong>：膝が内側・つま先が外向き → 外反扁平足・X脚。インソールのみで矯正するとガニ股リスクあり</span></div>
 
-        <div class="tl-section">② 脳幹の役割と7つの感覚</div>
+        <div class="tl-section">講座2-2｜脳幹の役割と7つの感覚</div>
         <div class="tl-item"><span class="ts">0:22:37</span><span class="tl-text"><strong>脳幹とは</strong>：呼吸・心拍・体温を調整する生命の土台（中脳・橋・延髄）</span></div>
         <div class="tl-item"><span class="ts">0:22:37</span><span class="tl-text"><strong>7つの感覚</strong>：五感（視覚・聴覚・触覚・味覚・嗅覚）＋ 固有受容覚＋前庭覚</span></div>
         <div class="tl-item"><span class="ts">0:22:37</span><span class="tl-text"><strong>感覚統合（交通整理）</strong>：幼児期に7感覚を脳で整理できないと姿勢崩れ・集中力低下・ぎこちない動きに繋がる</span></div>
 
-        <div class="tl-section">③ 前庭覚・固有受容覚の重要性</div>
+        <div class="tl-section">講座2-3｜前庭覚・固有受容覚の重要性</div>
         <div class="tl-item"><span class="ts">0:25:52</span><span class="tl-text"><strong>前庭覚</strong>：揺れ・傾き・加速を感じ取る「バランスの感覚」</span></div>
         <div class="tl-item"><span class="ts">0:25:52</span><span class="tl-text"><strong>固有受容覚</strong>：筋肉・関節の伸び縮みで姿勢・力加減・手足の位置を感じ取る。足裏からの地面の情報もここ</span></div>
         <div class="tl-item"><span class="ts">0:25:52</span><span class="tl-text"><strong>厚底靴の弊害</strong>：足裏の固有受容覚への入力を遮断してしまう。薄い靴が感覚育成に有利<span class="work-pill">ワーク</span></span></div>
 
-        <div class="tl-section">④ 感覚の「過敏」と「鈍麻」（コップの例え）</div>
+        <div class="tl-section">講座2-4｜感覚の「過敏」と「鈍麻」（コップの例え）</div>
         <div class="tl-item"><span class="ts">0:31:41</span><span class="tl-text"><strong>感覚過敏（小さいコップ）</strong>：少しの刺激（服のタグ・ドライヤーの音）ですぐ溢れてパニックになる</span></div>
         <div class="tl-item"><span class="ts">0:31:41</span><span class="tl-text"><strong>感覚鈍麻（巨大なコップ）</strong>：刺激が足りず強い刺激を常に求める（乱暴・ドシドシ歩く・高所から飛ぶ）</span></div>
         <div class="tl-item"><span class="ts">0:31:41</span><span class="tl-text"><strong>過敏な子へのアプローチ（引き算）</strong>：イヤーマフ・肌触りの良い服・暗く狭い逃げ場所で刺激を減らす</span></div>
         <div class="tl-item"><span class="ts">0:31:41</span><span class="tl-text"><strong>鈍麻な子へのアプローチ（足し算）</strong>：トランポリン・重い荷物運び・噛み応えのあるおやつで安全に強い刺激を満たす<span class="work-pill">ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:31:41</span><span class="tl-text"><strong>観察の視点</strong>：困った行動はわがままではなく、脳が感覚バランスを取ろうとする無意識の欲求。サインを読む</span></div>
 
-        <div class="tl-section">⑤ Q&Aセッション（前半）</div>
+        <div class="tl-section">講座2-5｜Q&Aセッション（前半）</div>
         <div class="tl-item"><span class="ts">0:54:12</span><span class="tl-text"><strong>Q：過敏・鈍麻の原因は胎児期？</strong>：原因特定より「今の状態を観察し必要な刺激を満たす」ことが重要</span></div>
         <div class="tl-item"><span class="ts">0:54:12</span><span class="tl-text"><strong>Q：貧乏ゆすり・落ち着きがない</strong>：感覚統合できず無意識に感覚入力しようとしている。本能的な動きが出ている可能性</span></div>
         <div class="tl-item"><span class="ts">0:54:12</span><span class="tl-text"><strong>Q：リモコンを口に当てる</strong>：口周りへの刺激欲求（吸啜反射の残存）や不安心理からくる癖の可能性</span></div>
 
-        <div class="tl-section">⑥ 原始反射のメカニズムと統合ワーク</div>
+        <div class="tl-section">講座2-6｜原始反射のメカニズムと統合ワーク</div>
         <div class="tl-item"><span class="ts">1:12:15</span><span class="tl-text"><strong>原始反射とは</strong>：胎児期〜出生直後に生命維持・発達促進のため自動的に現れる運動反応</span></div>
         <div class="tl-item"><span class="ts">1:12:15</span><span class="tl-text"><strong>脊髄反射 vs 脳幹反射</strong>：画鋲を踏んで即引っ込める＝脊髄反射。脳幹まで上がって処理されるのが脳幹反射</span></div>
         <div class="tl-item"><span class="ts">1:12:15</span><span class="tl-text"><strong>恐怖麻痺反射（FPR）</strong>：突然の音や光で全身フリーズ。残存すると過緊張・呼吸が浅い・集団に馴染めないなどの影響</span></div>
@@ -839,7 +841,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:12:15</span><span class="tl-text"><strong>屈曲反射</strong>：足裏刺激で足を引っ込める脊髄反射。残存すると足裏過敏 → つま先歩きになりやすい</span></div>
         <div class="tl-item"><span class="ts">1:12:15</span><span class="tl-text"><strong>屈曲 統合ワーク</strong>：足裏をタオル・ブラシで撫でる・深圧・足指グーパー・4パターンエクサ（足首上下・内・外）<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑦ Q&Aセッション（後半）</div>
+        <div class="tl-section">講座2-7｜Q&Aセッション（後半）</div>
         <div class="tl-item"><span class="ts">1:29:13</span><span class="tl-text"><strong>Q：11歳で皮膚むしり・爪噛み・光音過敏</strong>：感覚過敏（小さいコップ）＋モロー残存で常に緊張状態。ハミング呼吸で迷走神経を刺激し自覚的リラックスへ</span></div>
 
         <div class="tl-section">📝 次回の課題</div>
@@ -855,7 +857,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-purple" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">3</div>
+        <div class="lesson-num">講座<br>3</div>
         <div class="lesson-meta">
           <div class="lesson-title">原始反射②（TLR・ガラント・ATNR・STNR）</div>
           <div class="lesson-tags">
@@ -867,18 +869,18 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① 復習・全体の位置づけ</div>
+        <div class="tl-section">講座3-1｜復習・全体の位置づけ</div>
         <div class="tl-item"><span class="ts">0:00:04</span><span class="tl-text"><strong>講義3の位置づけ</strong>：前回の3反射（FPR・モロー・屈曲）を復習し、今回は残りの原始反射と統合ワークを広く扱う</span></div>
         <div class="tl-item"><span class="ts">0:01:41</span><span class="tl-text"><strong>小脳の長期抑圧</strong>：失敗→調整→成功の経験を通じて協調運動・運動能力を高める基盤</span></div>
         <div class="tl-item"><span class="ts">0:01:41</span><span class="tl-text"><strong>脳幹と感覚統合</strong>：脳幹＝「命のスイッチ・脳の土台」。五感＋固有受容覚＋前庭覚の7感覚を交通整理するのが感覚統合</span></div>
         <div class="tl-item"><span class="ts">0:03:00</span><span class="tl-text"><strong>Q：寝ている間のワークは有効か</strong>：寝た後の口・足裏刺激は屈曲反射を誘発しやすく効果は少ない。寝る前のハミング呼吸や揺らしは有効</span></div>
 
-        <div class="tl-section">② 原始反射の基礎知識</div>
+        <div class="tl-section">講座3-2｜原始反射の基礎知識</div>
         <div class="tl-item"><span class="ts">0:04:29</span><span class="tl-text"><strong>脊髄反射 vs 脳幹反射</strong>：原始反射は胎児期〜出生直後の自動運動反応。随意運動（大脳）とは異なる</span></div>
         <div class="tl-item"><span class="ts">0:06:10</span><span class="tl-text"><strong>TLRの重要性</strong>：多くの反射は早期統合されるがTLRは3歳頃まで残り、重力下で立つ・姿勢制御の土台になる</span></div>
         <div class="tl-item"><span class="ts">0:07:53</span><span class="tl-text"><strong>反射の4分類</strong>：①生存（FPR・モロー）②歩行と姿勢（屈曲・陽性支持・ガラント・把握）③口腔と手（吸啜・探索・バブキン）④姿勢・左右協調（TLR・ATNR・STNR）</span></div>
 
-        <div class="tl-section">③ FPR・モロー・屈曲反射（復習＋深掘り）</div>
+        <div class="tl-section">講座3-3｜FPR・モロー・屈曲反射（復習＋深掘り）</div>
         <div class="tl-item"><span class="ts">0:09:53</span><span class="tl-text"><strong>FPR（恐怖麻痺反射）</strong>：急激な刺激でフリーズ・息止め・硬直。残存すると不安・浅い呼吸・過緊張のループに</span></div>
         <div class="tl-item"><span class="ts">0:11:18</span><span class="tl-text"><strong>迷走神経とハミング呼吸</strong>：喉周辺を通る迷走神経をハミングの振動で刺激 → 副交感神経優位・リラックス<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:12:25</span><span class="tl-text"><strong>FPR統合：揺れ刺激・RMT</strong>：膝を軽く動かして全身を揺らす。お母さんの膝に子どもの脚を置き左右にやさしく揺らす<span class="work-pill">統合ワーク</span></span></div>
@@ -891,7 +893,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:29:00</span><span class="tl-text"><strong>Q：反射は単独 vs 連鎖統合</strong>：反射は相互に関連して残ることが多い。苦手さが複数場面に出る場合は全体のつながりで見る</span></div>
         <div class="tl-item"><span class="ts">0:30:20</span><span class="tl-text"><strong>Q：大人に残る原始反射</strong>：大脳の制御で代償できるが限界を超えると怒り・逃避・固まりやすさとして出る</span></div>
 
-        <div class="tl-section">④ 口腔・手の反射（吸啜・探索・バブキン・把握）</div>
+        <div class="tl-section">講座3-4｜口腔・手の反射（吸啜・探索・バブキン・把握）</div>
         <div class="tl-item"><span class="ts">0:33:44</span><span class="tl-text"><strong>吸啜・探索反射</strong>：残存すると指しゃぶり・鉛筆噛み・よだれ・口が開きやすい・嚥下機能への影響</span></div>
         <div class="tl-item"><span class="ts">0:35:30</span><span class="tl-text"><strong>口周りタッピング</strong>：頬→口角→上唇→下唇の順に慣らす。いきなり唇に触ると吸啜反射が出やすいため順序が重要<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:38:04</span><span class="tl-text"><strong>口腔統合ワーク</strong>：あいうべ体操・唇シール・舌をスポットへ・ブクブクうがい・ボタン口唇トレーニング。姿勢もセットで見る<span class="work-pill">統合ワーク</span></span></div>
@@ -902,7 +904,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:04:27</span><span class="tl-text"><strong>バブキン反射</strong>：手で作業すると口が開く・よだれが出る。授乳時に手で押すと口が開く生命プログラムの残存</span></div>
         <div class="tl-item"><span class="ts">1:06:00</span><span class="tl-text"><strong>バブキン統合</strong>：手作業中に口を軽く閉じる意識・ハミングしながら手指課題を行う<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑤ 足・歩行の反射（足把握・陽性支持・歩行反射・CPG）</div>
+        <div class="tl-section">講座3-5｜足・歩行の反射（足把握・陽性支持・歩行反射・CPG）</div>
         <div class="tl-item"><span class="ts">0:50:00</span><span class="tl-text"><strong>足の把握反射</strong>：足底に圧でつま先を丸める。残存するとアーチ形成・膝・姿勢に影響。トング遊び・バランスストーンが有効</span></div>
         <div class="tl-item"><span class="ts">0:52:00</span><span class="tl-text"><strong>足裏刺激の段階づけ</strong>：凹凸マット→芝生→砂利→裸足歩きと段階的に。嫌がる子はお風呂でのディーププレッシャーから<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:07:26</span><span class="tl-text"><strong>陽性支持反射</strong>：足底への圧で脚が伸びる反射。残存するとつま先歩き・膝過伸展・反張膝・膝痛につながる</span></div>
@@ -911,7 +913,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:12:00</span><span class="tl-text"><strong>脳はドライバー、脊髄・脳幹はエンジン</strong>：大脳が方向づけ、左右交互リズムはCPGが自動生成。だから大脳未発達な新生児でも足踏みができる</span></div>
         <div class="tl-item"><span class="ts">1:16:21</span><span class="tl-text"><strong>本物の歩行への統合</strong>：歩行反射（リズム）＋陽性支持反射（支持力）が生後10〜12ヶ月頃にバランス・意図的コントロールと統合されて完成</span></div>
 
-        <div class="tl-section">⑥ 体幹・協調の反射（ガラント・ATNR・STNR・TLR・バビンスキー）</div>
+        <div class="tl-section">講座3-6｜体幹・協調の反射（ガラント・ATNR・STNR・TLR・バビンスキー）</div>
         <div class="tl-item"><span class="ts">1:17:22</span><span class="tl-text"><strong>ガラント反射</strong>：背骨の横をなぞると体をよじる反射。おねしょとの関係・産道通過時の体幹運動とも関連。ゴロゴロ回転・背中運動が有効<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:19:56</span><span class="tl-text"><strong>ATNR（非対称性緊張性頸反射）</strong>：顔を向けた側の手足が伸び反対側が曲がる＝フェンシングポーズ。残存すると書字困難・紙を斜めにする・正中線越えが苦手</span></div>
         <div class="tl-item"><span class="ts">1:20:55</span><span class="tl-text"><strong>ATNR統合</strong>：ミッドラインハグ（自分を抱きしめ手を入れ替える）・クロスクロール（右手と左膝を交互）で正中線越え練習<span class="work-pill">統合ワーク</span></span></div>
@@ -922,7 +924,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:31:16</span><span class="tl-text"><strong>TLR統合</strong>：スーパーマン・丸まり・四つ這い・首の安定運動・ボールを上下に動かす課題<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:33:00</span><span class="tl-text"><strong>バビンスキー反射</strong>：足裏刺激で親指が反る・足指が開く。2歳以降の残存は中枢神経系の問題も考慮が必要。足裏刺激・グーパー運動</span></div>
 
-        <div class="tl-section">⑦ Q&Aセッション</div>
+        <div class="tl-section">講座3-7｜Q&Aセッション</div>
         <div class="tl-item"><span class="ts">0:53:20</span><span class="tl-text"><strong>Q：3点持ちと手首ニュートラル</strong>：手首は屈曲側に落ちると力みが出やすい。ハイハイや床への手つき経験が手首・手指の使い方の基礎に</span></div>
         <div class="tl-item"><span class="ts">0:58:24</span><span class="tl-text"><strong>Q：9歳男子のペン圧・親指の開き</strong>：3点持ち練習＋水かき部分のストレッチ。ピアノは左右手指を別々に使う点で良いが嫌がらせないことが前提</span></div>
         <div class="tl-item"><span class="ts">1:35:49</span><span class="tl-text"><strong>Q：ATNRと側弯症</strong>：ATNRだけで側弯は決まらないが、左右差や紙を斜めにする習慣が成長期の筋骨格バランスに影響する可能性</span></div>
@@ -939,7 +941,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-teal" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">4</div>
+        <div class="lesson-num">講座<br>4</div>
         <div class="lesson-meta">
           <div class="lesson-title">足の構造・年齢別トレーニング・RICE処置</div>
           <div class="lesson-tags">
@@ -951,7 +953,7 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① 原始反射の復習（講義3の確認）</div>
+        <div class="tl-section">講座4-1｜原始反射の復習</div>
         <div class="tl-item"><span class="ts">0:02:35</span><span class="tl-text"><strong>復習の流れ</strong>：講義3までの反射を早足で確認。屈曲・吸啜・把握・バブキン・陽性支持・歩行・ガラント・ATNR・STNR・バビンスキー・TLRを整理</span></div>
         <div class="tl-item"><span class="ts">0:03:09</span><span class="tl-text"><strong>屈曲反射</strong>：足裏刺激で足を引っ込める脊髄反射。残存すると足裏過敏・つま先歩きに。足裏マッサージ＋深い圧刺激で受容器を育てる</span></div>
         <div class="tl-item"><span class="ts">0:05:03</span><span class="tl-text"><strong>足首4パターン・背屈練習</strong>：足首を90度に近づける背屈が苦手な子が多い。内股にならないようゆっくり動かす<span class="work-pill">統合ワーク</span></span></div>
@@ -967,7 +969,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:19:45</span><span class="tl-text"><strong>バビンスキー反射</strong>：足裏外側刺激で足趾が開く。強い残存は中枢神経系の評価も検討。軽度は足裏刺激・バランスマットで感覚入力を増やす</span></div>
         <div class="tl-item"><span class="ts">0:21:33</span><span class="tl-text"><strong>TLR（屈曲優位・伸展優位）</strong>：前屈で前に倒れる、上を向くと後ろへ崩れる。スーパーマン・スターフィッシュ・首コントロール・ボールキャッチ<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">② 足裏感覚・小脳・脳の発達</div>
+        <div class="tl-section">講座4-2｜足裏感覚・小脳・脳の発達</div>
         <div class="tl-item"><span class="ts">0:28:20</span><span class="tl-text"><strong>足裏は重要なセンサー</strong>：固有受容器が多く、前庭覚とともに小脳で微調整され姿勢制御に関わる</span></div>
         <div class="tl-item"><span class="ts">0:33:45</span><span class="tl-text"><strong>ホムンクルス</strong>：脳の感覚・運動地図では手や口の領域が大きい。指先や唇は髪の毛1本でも感じるほど敏感で脳発達に大きく関わる</span></div>
         <div class="tl-item"><span class="ts">0:35:30</span><span class="tl-text"><strong>手先を使うと脳が育つ</strong>：ボタン・折り紙・ペン操作は脳の複数領域を同時に使う高度な活動。集中力・計画性にもつながる</span></div>
@@ -976,14 +978,14 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:44:20</span><span class="tl-text"><strong>足裏センサー・小脳・集中力</strong>：足裏感覚を育てることが注意・集中にも影響。バランス保持は集中を要する行為</span></div>
         <div class="tl-item"><span class="ts">0:50:55</span><span class="tl-text"><strong>小脳と発達・認知・感情</strong>：小脳は運動調整だけでなく言語・注意・感情バランスにも関わる。足トレーニングが小脳への入力を高める理由</span></div>
 
-        <div class="tl-section">③ 鉛筆・手指の使い方</div>
+        <div class="tl-section">講座4-3｜鉛筆・手指の使い方</div>
         <div class="tl-item"><span class="ts">0:37:30</span><span class="tl-text"><strong>グー持ち・筆圧の問題</strong>：グー持ちでは腕・肩まで力が入り筆圧が強くなる。3本指で持つには細かな脳の制御チームが必要</span></div>
         <div class="tl-item"><span class="ts">0:48:30</span><span class="tl-text"><strong>Q：鉛筆が濃くなる理由</strong>：最近は2B・4B鉛筆が増えている。3本指で柔らかく持てないため筆圧が強くHBでは芯が折れやすい</span></div>
         <div class="tl-item"><span class="ts">0:52:20</span><span class="tl-text"><strong>3本指で棒を引っ張る遊び</strong>：親指・人差し指・中指で棒や柔らかい素材を持ち親子で引っ張り合い。グー握りではなく指先の握力を使う<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:00:00</span><span class="tl-text"><strong>手首チェック・ハンドバッグ持ち</strong>：手首が屈曲側に落ちる持ち方は足のつま先歩きと同じ構造。握力を使わない癖が将来の手根管負担につながる可能性</span></div>
         <div class="tl-item"><span class="ts">1:01:30</span><span class="tl-text"><strong>親指開きチェックと水かき部マッサージ</strong>：親指が真横に開くか確認。親指の根元を持って開く・水かき部マッサージ後に伸ばす<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">④ 年齢別：足トレーニング</div>
+        <div class="tl-section">講座4-4｜年齢別：足トレーニング</div>
         <div class="tl-item"><span class="ts">0:29:20</span><span class="tl-text"><strong>1〜2歳：足裏感覚の基礎</strong>：素足でさまざまな地面（砂・芝・人工芝・砂利）を歩く。足裏を押す・お風呂で刺激・手をつないでしゃがむ・立つ<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:31:20</span><span class="tl-text"><strong>3〜5歳：片足立ち・足指・バランス遊び</strong>：線上歩き・片足立ち5秒・足指グーチョキパー・バランスストーン・足でボールを箱に入れる<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:32:45</span><span class="tl-text"><strong>6〜9歳（ゴールデンエイジ）：セラバンド</strong>：細かい運動コントロールが発達。セラバンドで足裏・足指をトレーニング。手足の巧緻性と姿勢・バランスの土台を育てる時期<span class="work-pill">統合ワーク</span></span></div>
@@ -997,7 +999,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:14:40</span><span class="tl-text"><strong>かかと着地と転倒予防</strong>：足趾が上がりかかとから着地できることが重要。5〜6歳以降に少しずつ伝えられる</span></div>
         <div class="tl-item"><span class="ts">1:15:25</span><span class="tl-text"><strong>かかと外側→親指への対角線</strong>：歩行の力はかかと外側から足裏を通って親指側へ抜ける。つま先歩き・内股の子にこの感覚を伝える</span></div>
 
-        <div class="tl-section">⑤ 応急処置：RICE</div>
+        <div class="tl-section">講座4-5｜応急処置：RICE</div>
         <div class="tl-item"><span class="ts">1:18:10</span><span class="tl-text"><strong>RICEとは</strong>：捻挫・打撲・肉離れの初期対応。Rest（安静）・Ice（冷却）・Compression（圧迫）・Elevation（挙上）</span></div>
         <div class="tl-item"><span class="ts">1:18:45</span><span class="tl-text"><strong>Rest（安静）</strong>：まず動きを止める。強い痛み・変形・著明な腫れは骨折を考え受診優先</span></div>
         <div class="tl-item"><span class="ts">1:19:40</span><span class="tl-text"><strong>骨折疑いの確認</strong>：離れた場所を軽く叩いた時に痛い部位へ響く（叩打痛）か確認。腫れ・痛みが強ければ早めに受診</span></div>
@@ -1006,7 +1008,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:23:10</span><span class="tl-text"><strong>Compression（圧迫）</strong>：包帯・テーピングで軽く圧迫。足趾が紫・冷たい・しびれる場合は締めすぎ</span></div>
         <div class="tl-item"><span class="ts">1:23:45</span><span class="tl-text"><strong>Elevation（挙上）</strong>：患部を心臓より高くして腫れ・うっ滞を抑える。寝る時もクッションで挙上</span></div>
 
-        <div class="tl-section">⑥ Q&Aセッション</div>
+        <div class="tl-section">講座4-6｜Q&Aセッション</div>
         <div class="tl-item"><span class="ts">1:24:35</span><span class="tl-text"><strong>Q：手首が曲がる子への対応</strong>：棒の引っ張り合い・雑巾絞り・指相撲で指先握力と手首伸展を引き出す</span></div>
         <div class="tl-item"><span class="ts">1:27:25</span><span class="tl-text"><strong>Q：バイバイで手がヒラヒラする子</strong>：ペン・箸の持ち方を確認。手首・親指ストレッチ・雑巾絞り・親指を開く練習を提案</span></div>
 
@@ -1020,7 +1022,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-teal" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">5</div>
+        <div class="lesson-num">講座<br>5</div>
         <div class="lesson-meta">
           <div class="lesson-title">運動×脳（BDNF）・足裏と心の成長・バランスディスク</div>
           <div class="lesson-tags">
@@ -1032,20 +1034,20 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① 足トレーニングの復習と深掘り</div>
+        <div class="tl-section">講座5-1｜足トレーニングの復習と深掘り</div>
         <div class="tl-item"><span class="ts">0:01:43</span><span class="tl-text"><strong>講義5のテーマ</strong>：前回の足トレーニングの「何をしているか」のメカニズムまで理解して実践できるようにする</span></div>
         <div class="tl-item"><span class="ts">0:02:33</span><span class="tl-text"><strong>足指グーパーとホムンクルス</strong>：3〜5歳から足のグーパー遊びを取り入れる。細かな運動が脳と関係することを確認<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:04:40</span><span class="tl-text"><strong>視覚フィードバックを使った練習</strong>：できない子は寝た姿勢でなく足を見ながら行う。保護者の動きを見せてから真似させる→慣れたら見ないでやる<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:06:00</span><span class="tl-text"><strong>セラバンドの注意点</strong>：指先だけでなく足指の付け根から曲げることを意識させる。どこから曲がるかが重要</span></div>
 
-        <div class="tl-section">② 外在筋・内在筋と外反扁平足のメカニズム</div>
+        <div class="tl-section">講座5-2｜外在筋・内在筋と外反扁平足のメカニズム</div>
         <div class="tl-item"><span class="ts">0:07:27</span><span class="tl-text"><strong>外在筋 vs 内在筋</strong>：膝下から足先へ走る外在筋と、足底内にある内在筋を区別。外反扁平足や踵の安定には外在筋の理解が重要</span></div>
         <div class="tl-item"><span class="ts">0:08:40</span><span class="tl-text"><strong>長母趾屈筋と載距突起</strong>：長母趾屈筋が載距突起付近を通り距骨・踵の安定に関与。この筋が弱いと内側アーチが落ちやすい</span></div>
         <div class="tl-item"><span class="ts">0:10:04</span><span class="tl-text"><strong>外反扁平足のメカニズム</strong>：舟状骨・載距突起を支える仕組みを解説。インソールで支えるより筋肉で支えられることが大切</span></div>
         <div class="tl-item"><span class="ts">0:12:00</span><span class="tl-text"><strong>バランスディスクと親指側の使い方</strong>：足が外側へ逃げる場合、内ももで挟む補助は初期の方向づけに有効。本質は長母趾屈筋・後脛骨筋の親指側の筋活動</span></div>
         <div class="tl-item"><span class="ts">0:15:00</span><span class="tl-text"><strong>足裏の赤み・小指側荷重の観察</strong>：足裏の小指側が赤い・豆ができるのは外側荷重で親指を使えていないサイン</span></div>
 
-        <div class="tl-section">③ 足首の方向性と筋肉の使い分け</div>
+        <div class="tl-section">講座5-3｜足首の方向性と筋肉の使い分け</div>
         <div class="tl-item"><span class="ts">0:16:35</span><span class="tl-text"><strong>足首背屈とふくらはぎリリース</strong>：硬い子は膝の上に足を乗せて圧をかけながら足首を動かしてふくらはぎを緩める<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:18:00</span><span class="tl-text"><strong>抵抗をかけた足首のまっすぐ背屈</strong>：保護者が抵抗をかけ足首をまっすぐ上げる練習。内側・外側へ逃げる子が多いため方向の修正がポイント<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:20:00</span><span class="tl-text"><strong>手首の例えで理解する</strong>：手首を小指側・親指側に反らす感覚と疲れる場所を体感。足首も同様に方向で使われる筋肉が変わる</span></div>
@@ -1055,12 +1057,12 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:30:00</span><span class="tl-text"><strong>ストップ&ゴーによる足部強化</strong>：反復横跳びや合図で止まる・戻る動きが長母趾屈筋・後脛骨筋を強化し捻挫予防にもつながる<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:32:00</span><span class="tl-text"><strong>ショートフットと把握反射への配慮</strong>：足指だけ丸める子は把握反射残存の可能性。足裏全体を床につけてから床を指で押す感覚を育てる<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">④ Q&A：年齢別の足育て</div>
+        <div class="tl-section">講座5-4｜Q&A：年齢別の足育て</div>
         <div class="tl-item"><span class="ts">0:34:00</span><span class="tl-text"><strong>Q：1〜2歳の予防的な足育て</strong>：裸足で安全に遊ぶ・でこぼこ地面・坂道・滑り台の逆登りで足裏感覚と筋力を育てる</span></div>
         <div class="tl-item"><span class="ts">0:36:00</span><span class="tl-text"><strong>Q：ハイハイと足指の蹴り出し</strong>：膝でずるハイハイをしていた子は足指経験が少ない可能性。熊歩きも足指強化に有効<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:38:00</span><span class="tl-text"><strong>床環境の重要性</strong>：フローリングは滑って足指で蹴る経験が入りにくい。畳や抵抗のある床面の方が足指の蹴り出し経験につながる</span></div>
 
-        <div class="tl-section">⑤ 運動が脳を育てる：BDNF</div>
+        <div class="tl-section">講座5-5｜運動が脳を育てる：BDNF</div>
         <div class="tl-item"><span class="ts">0:40:00</span><span class="tl-text"><strong>シカゴの奇跡・0時限体育</strong>：学力最低だった学校が全校生徒に1時限目前の運動を取り入れたことでトップ校に。運動→神経伝達物質増加→学習意欲向上のメカニズム</span></div>
         <div class="tl-item"><span class="ts">0:42:00</span><span class="tl-text"><strong>神経伝達物質と学習意欲</strong>：ドーパミン（やる気）・ノルアドレナリン（注意・気づき）・セロトニン（状態を整える）が意欲・集中・学習能力と直結</span></div>
         <div class="tl-item"><span class="ts">0:44:00</span><span class="tl-text"><strong>運動強制の注意点</strong>：足部機能や痛みの問題があると怪我や拒否につながる。今の子どもへの適用は「まず痛みをゼロにする」ことが前提</span></div>
@@ -1070,7 +1072,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:08:00</span><span class="tl-text"><strong>BDNF NG習慣</strong>：睡眠不足・座りっぱなし・スマホ長時間がBDNFを出にくくさせる</span></div>
         <div class="tl-item"><span class="ts">1:10:00</span><span class="tl-text"><strong>食の注意：アクリルアミド・ソラニン</strong>：焦げ・ポテトフライのアクリルアミドと、じゃがいもの芽・緑の部分のソラニンは神経毒。小さなじゃがいもは捨て、芽は深くえぐる</span></div>
 
-        <div class="tl-section">⑥ RAS（網様体賦活系）と脳幹ネットワーク</div>
+        <div class="tl-section">講座5-6｜RAS（網様体賦活系）と脳幹ネットワーク</div>
         <div class="tl-item"><span class="ts">0:46:00</span><span class="tl-text"><strong>スマホ・ゲームとドーパミン過剰</strong>：動画視聴でドーパミンが過剰になり他の活動でやる気が出にくい状態に。川島先生の研究：スマホ常時使用で脳の白質が成長しなかった</span></div>
         <div class="tl-item"><span class="ts">0:48:00</span><span class="tl-text"><strong>脳幹・網様体・RASの違い</strong>：脳幹＝構造、網様体＝網の目状の神経ネットワーク、RAS＝その中で覚醒・注意を高めるシステム</span></div>
         <div class="tl-item"><span class="ts">0:50:00</span><span class="tl-text"><strong>RASの基本機能</strong>：覚醒・意識レベル調整、注意集中、感覚情報のゲートコントロール（必要な情報を通し不要な情報を抑える）、睡眠覚醒リズム</span></div>
@@ -1080,7 +1082,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:24:00</span><span class="tl-text"><strong>Q：RASを働かせるには</strong>：原始反射統合・足裏感覚・前庭固有受容刺激を通じて結果的に整えていく。特に足の感覚入力が重要</span></div>
         <div class="tl-item"><span class="ts">1:26:00</span><span class="tl-text"><strong>結論：動くことが脳を育てる</strong>：RASもBDNFも運動と直結。子どもが目を輝かせて動ける状態を作ることがすべての土台</span></div>
 
-        <div class="tl-section">⑦ バランスディスクの段階づけ</div>
+        <div class="tl-section">講座5-7｜バランスディスクの段階づけ</div>
         <div class="tl-item"><span class="ts">1:13:20</span><span class="tl-text"><strong>バランスディスクの意義</strong>：足裏感覚・前庭覚・姿勢制御・集中力・RAS・BDNFすべてに関わる総合トレーニング</span></div>
         <div class="tl-item"><span class="ts">1:14:00</span><span class="tl-text"><strong>段階づけ</strong>：①座る（1〜2歳）→②両足で立つ→③片足で立つ→④両足で目を閉じる→⑤片足で目を閉じる→⑥ボール遊び・上を見てキャッチ<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:16:00</span><span class="tl-text"><strong>腕を動かしても体幹を止める練習</strong>：ディスク上で腕を上げ下げしても体が揺れないようにする。足裏・前庭入力を体幹安定へつなげる<span class="work-pill">統合ワーク</span></span></div>
@@ -1097,7 +1099,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-orange" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">6</div>
+        <div class="lesson-num">講座<br>6</div>
         <div class="lesson-meta">
           <div class="lesson-title">ビジョントレーニング・お口ぽかん</div>
           <div class="lesson-tags">
@@ -1109,44 +1111,44 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① 前回課題の確認・復習</div>
+        <div class="tl-section">講座6-1｜前回課題の確認・復習</div>
         <div class="tl-item"><span class="ts">0:00:37</span><span class="tl-text"><strong>足首背屈の確認</strong>：足がベッドや台から落ちた状態では背屈しにくい。床に踵を押さえた状態で90度まで上がるか・内外に逃げず真っすぐ動くかを確認</span></div>
         <div class="tl-item"><span class="ts">0:02:26</span><span class="tl-text"><strong>4パターン→セラバンドへ</strong>：足首の基本動作ができてから4パターン運動、その先にセラバンドで抵抗をかける練習へ段階づけ<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:05:25</span><span class="tl-text"><strong>バランスディスクの段階づけ（復習）</strong>：座る→手を広げる→目を閉じる→片足立ちへ。小さい子はディスク上で積み木や歌など遊びとして取り入れる<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">② ビジョントレーニングとは</div>
+        <div class="tl-section">講座6-2｜ビジョントレーニングとは</div>
         <div class="tl-item"><span class="ts">0:06:31</span><span class="tl-text"><strong>ビジョントレーニングの定義</strong>：「目だけ」の話ではなく、目から入った情報を脳で処理し行動・動きへつなげる練習。視力と視機能は別</span></div>
         <div class="tl-item"><span class="ts">0:07:24</span><span class="tl-text"><strong>視覚機能の困りごと</strong>：姿勢が保てない・机に覆いかぶさる・ボールが苦手・黒板が苦手・飛ばし読み・すぐ疲れる などが視覚機能と関係する可能性</span></div>
         <div class="tl-item"><span class="ts">0:08:28</span><span class="tl-text"><strong>3つの問題の切り分け</strong>：①視力そのもの（ぼやける）→眼科、②視機能（行飛ばし・疲労・書字困難）→ビジョントレーニング、③原始反射（机で体が動く）→反射統合</span></div>
         <div class="tl-item"><span class="ts">0:14:00</span><span class="tl-text"><strong>視力が良くても使えない目がある</strong>：ビジョントレーニングは目で捉え脳で処理し体を動かす協調性を育てるもの。読み書き・ボール・表情理解・状況把握へ波及</span></div>
         <div class="tl-item"><span class="ts">0:16:12</span><span class="tl-text"><strong>見る努力のエネルギーロス</strong>：目と体の協調が悪いと見る・姿勢を保つだけで大きなエネルギーを消費。子どもの「疲れた」は視覚機能や姿勢制御の負荷かもしれない</span></div>
 
-        <div class="tl-section">③ 姿勢を保つ3つの感覚</div>
+        <div class="tl-section">講座6-3｜姿勢を保つ3つの感覚</div>
         <div class="tl-item"><span class="ts">0:18:53</span><span class="tl-text"><strong>視覚・前庭覚・固有受容覚</strong>：視覚＝外界の水平垂直を教える（情報の約80%）、前庭覚＝頭の動きと重力を感知（目閉じても倒れない）、固有受容覚＝足裏の圧・位置感覚</span></div>
         <div class="tl-item"><span class="ts">0:23:19</span><span class="tl-text"><strong>感覚の重み付け</strong>：状況に応じて脳が自動で3感覚の重要度を変える。暗所・不安定面では足裏感覚の重みが高まる。厚すぎる靴は足裏感覚を弱める可能性あり</span></div>
         <div class="tl-item"><span class="ts">0:25:09</span><span class="tl-text"><strong>目・耳・足の3つのメーター</strong>：この3つの情報を脳が統合して体を操縦している。見る力が整うと脳の省エネが進み学習・思考に余力が回る</span></div>
 
-        <div class="tl-section">④ 眼球運動トレーニング実技</div>
+        <div class="tl-section">講座6-4｜眼球運動トレーニング実技</div>
         <div class="tl-item"><span class="ts">0:17:23</span><span class="tl-text"><strong>小さい子向け導入</strong>：迷路・線なぞり・紙の数字を目で追ってタッチ・人形を目で追う遊びで眼球運動と視覚探索を育てる<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:27:41</span><span class="tl-text"><strong>追従性眼球運動</strong>：人形をゆっくり動かし、顔を動かさず目だけでゆっくり追う練習（追視）<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:28:14</span><span class="tl-text"><strong>サッカード（跳躍性眼球運動）</strong>：左右・上下・遠近に視線を素早く切り替える。紙に1〜10の数字を書いて、言われた数字を目で追ってタッチする方法が効果的<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:30:20</span><span class="tl-text"><strong>収束運動（寄り目）の注意</strong>：⚠️内斜視の子は悪化の可能性があるため絶対にやらない。外斜視は状況により可。集中力を使う高難度トレーニング</span></div>
         <div class="tl-item"><span class="ts">0:32:04</span><span class="tl-text"><strong>収束運動の実技</strong>：画面手前に焦点を置き2つの丸を1つに重ねる。3つに見えるだけでもトレーニング効果あり。指や棒を顔に近づけて目が寄るかを観察<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑤ VOR（前庭動眼反射）・フラミンゴバランス</div>
+        <div class="tl-section">講座6-5｜VOR（前庭動眼反射）・フラミンゴバランス</div>
         <div class="tl-item"><span class="ts">0:37:43</span><span class="tl-text"><strong>VORとは</strong>：対象を見続けたまま頭を動かす機能。体幹が一緒に動かないようにするのがポイント。めまい・車酔いしやすい子は無理せず中止</span></div>
         <div class="tl-item"><span class="ts">0:40:00</span><span class="tl-text"><strong>VOR実技</strong>：対象を見ながら頭を左右・上下に動かす。子どもは体も一緒に動きやすいため壁に背中をつけて補助する。左右5回・上下5回程度から<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:44:48</span><span class="tl-text"><strong>フラミンゴバランス（小さい子・VORが難しい子向け）</strong>：①両手を広げて片足10秒→②頭を左右に傾ける→③目を閉じる。バランスディスク上で行うとより効果的<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:48:50</span><span class="tl-text"><strong>年齢による使い分け</strong>：6〜7歳以上はVORに挑戦、小さい子は風船を追う・紙をタッチするなど遊びで代替。1〜2歳はフラミンゴのみ</span></div>
 
-        <div class="tl-section">⑥ Q&A：ビジョントレーニング</div>
+        <div class="tl-section">講座6-6｜Q&A：ビジョントレーニング</div>
         <div class="tl-item"><span class="ts">0:50:00</span><span class="tl-text"><strong>Q：寄り目が1秒しか続かない</strong>：できれば大丈夫。遠くから近くへ近づける方法で練習し無理なく慣らす</span></div>
         <div class="tl-item"><span class="ts">0:52:00</span><span class="tl-text"><strong>Q：視力問題と視機能問題の違い</strong>：眼科で扱う視力の問題とは別。画面視聴に偏ると目で追って取る経験が不足しやすい。ボール遊びが重要</span></div>
         <div class="tl-item"><span class="ts">0:56:39</span><span class="tl-text"><strong>Q：浮き指と片足立ち不安定</strong>：足裏感覚が入りにくい状態。不安定面・バランスディスク・でこぼこ歩きで足裏情報を入れる。目をつぶると足が頑張るため効果的</span></div>
         <div class="tl-item"><span class="ts">1:03:00</span><span class="tl-text"><strong>Q：VORの頻度と中止基準</strong>：左右5回・上下5回から。疲れた・気持ち悪い場合は中止。できない場合は朝晩など頻度を増やす</span></div>
         <div class="tl-item"><span class="ts">1:05:20</span><span class="tl-text"><strong>原始反射統合と視機能</strong>：ATNRなどの統合不十分だと目から入った情報を体で処理する動きにも影響。両方合わせてアプローチする</span></div>
 
-        <div class="tl-section">⑦ お口ぽかん：足元からの全身連鎖で見る</div>
+        <div class="tl-section">講座6-7｜お口ぽかん：足元からの全身連鎖で見る</div>
         <div class="tl-item"><span class="ts">1:06:49</span><span class="tl-text"><strong>お口ぽかんの全身連鎖的な見方</strong>：一般的には低舌・口呼吸・口周りの筋力として語られるが、この学校では足元から頭までの連鎖として見る</span></div>
         <div class="tl-item"><span class="ts">1:08:11</span><span class="tl-text"><strong>口唇閉鎖不全の実態</strong>：3〜12歳の大規模調査で約30.7%に口唇閉鎖不全。鼻詰まり・アレルギー・アデノイド・扁桃肥大がある場合は口の筋トレだけでは解決しない</span></div>
         <div class="tl-item"><span class="ts">1:11:00</span><span class="tl-text"><strong>舌のスポット位置の確認</strong>：正しい舌の位置は上の前歯の裏のスポット（少し出っ張ったところ）。猫背・頭部前方位では舌が下へ引かれてスポットに置けなくなる</span></div>
@@ -1154,17 +1156,17 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:15:46</span><span class="tl-text"><strong>木津仮説</strong>：低舌・口呼吸は口だけの弱さでなく、体を重力に対して保つ力の未成熟が最も見えやすい口に表れた状態ではないか</span></div>
         <div class="tl-item"><span class="ts">1:16:37</span><span class="tl-text"><strong>頭部前方位と口唇閉鎖の負担</strong>：頭が前に出ると口を閉じる負担が増える。足がブラブラする子は足台で足裏を接地させると頭の代償が減り努力量が下がる可能性</span></div>
 
-        <div class="tl-section">⑧ 深い呼吸・横隔膜・胸郭</div>
+        <div class="tl-section">講座6-8｜深い呼吸・横隔膜・胸郭</div>
         <div class="tl-item"><span class="ts">1:17:38</span><span class="tl-text"><strong>深い呼吸の正しい方法</strong>：まず吐く→苦しくなるまで吐き切る→鼻から吸う。お腹が膨らんだ後に胸郭（前後）が広がる。腰を反らせず肩を上げない<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:17:38</span><span class="tl-text"><strong>胸郭は前後に広がる</strong>：前だけでなく背中側も広がる必要がある。巻き肩・猫背の状態では胸郭は開けない。まず姿勢を整えてから</span></div>
 
-        <div class="tl-section">⑨ お口ぽかん対策・口周りワーク</div>
+        <div class="tl-section">講座6-9｜お口ぽかん対策・口周りワーク</div>
         <div class="tl-item"><span class="ts">1:27:29</span><span class="tl-text"><strong>土台からのアプローチ（優先）</strong>：裸足・足裏荷重・四つ這い・雑巾掛け・ぶら下がり・登る・坂道・足台で足と体幹の土台を先に作る<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:28:40</span><span class="tl-text"><strong>口周りワーク</strong>：ストローでブクブク・風船・ボタントレーニング（唇と歯の間に入れて引っ張る）・上唇ストレッチ（鼻の下を押さえ上唇を下に10秒）・ストロー挟み保持<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:28:40</span><span class="tl-text"><strong>よく噛むのは姿勢が整ってから</strong>：体ができていない時に硬いものを噛むのはかえって良くない。体を作ってから</span></div>
         <div class="tl-item"><span class="ts">1:30:58</span><span class="tl-text"><strong>専門家受診の目安</strong>：いびき・睡眠時無呼吸・寝汗・夜間覚醒・鼻詰まり・アレルギー・大きな扁桃腺がある場合は専門家受診を優先。家庭ワークは4週間行い8〜10週で再評価</span></div>
 
-        <div class="tl-section">⑩ Q&A：お口ぽかん・呼吸</div>
+        <div class="tl-section">講座6-10｜Q&A：お口ぽかん・呼吸</div>
         <div class="tl-item"><span class="ts">1:32:28</span><span class="tl-text"><strong>Q：ハミング呼吸の姿勢</strong>：ハミング呼吸はリラックス目的なので寝ながらでOK。呼吸練習は別途しっかり吸って吐いて胸郭を確認する</span></div>
         <div class="tl-item"><span class="ts">1:33:17</span><span class="tl-text"><strong>Q：1歳・舌・横隔膜</strong>：口ではなく足・下半身の土台を整えることが優先。坂道・滑り台登り・ハイハイ・高這いを増やす<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:38:04</span><span class="tl-text"><strong>Q：哺乳瓶・口腔刺激</strong>：哺乳瓶で出やすかった場合は吸啜反射の経験不足の可能性。ストロー・ブクブク・口腔内刺激も必要だが足からの連鎖も合わせて作る</span></div>
@@ -1179,7 +1181,7 @@ nav::-webkit-scrollbar { display: none; }
 
     <div class="lesson-card p-teal" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">7</div>
+        <div class="lesson-num">講座<br>7</div>
         <div class="lesson-meta">
           <div class="lesson-title">骨格セルフ検査・内股・股関節・大腿骨前捻</div>
           <div class="lesson-tags">
@@ -1191,7 +1193,7 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">① ビジョン・お口ぽかん復習（坂谷先生）</div>
+        <div class="tl-section">講座7-1｜ビジョン・お口ぽかん復習（坂谷先生）</div>
         <div class="tl-item"><span class="ts">0:00:14</span><span class="tl-text"><strong>坂谷先生（理学療法士）の紹介</strong>：本講義より坂谷先生が担当。骨格セルフ検査と家庭ケアを中心に解説</span></div>
         <div class="tl-item"><span class="ts">0:02:36</span><span class="tl-text"><strong>ビジョントレーニング復習</strong>：追視・サッカード・寄り目を再確認。年少児では難しくても過度に心配しない</span></div>
         <div class="tl-item"><span class="ts">0:03:27</span><span class="tl-text"><strong>寄り目と内斜視への注意</strong>：片眼が内側へ動かない場合は眼科へ。⚠️内斜視のある子には寄り目練習をしない</span></div>
@@ -1204,7 +1206,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:26:19</span><span class="tl-text"><strong>頭部前方位・猫背と口の開き</strong>：猫背・頭部前方位では舌骨が引かれ口を閉じる負担が増える。足台で足を接地させると努力量が下がる</span></div>
         <div class="tl-item"><span class="ts">0:28:13</span><span class="tl-text"><strong>鼻呼吸・ハミング呼吸・口周囲遊び</strong>：ストロー・シャボン玉・口周囲タッチを家庭で実践。「よく噛む」は姿勢が整ってから<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">② 左右差・利き目・福田式足踏みテスト</div>
+        <div class="tl-section">講座7-2｜左右差・利き目・福田式足踏みテスト</div>
         <div class="tl-item"><span class="ts">0:32:26</span><span class="tl-text"><strong>寄り目の左右差を全身から見る</strong>：片側だけ寄りにくい例は眼だけでなく全身の左右差と関連する可能性を提示</span></div>
         <div class="tl-item"><span class="ts">0:33:56</span><span class="tl-text"><strong>利き目チェック</strong>：手で作った輪を両眼で見て、片眼ずつ閉じた時に見え方が変わらない側が利き目<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:34:44</span><span class="tl-text"><strong>視覚課題＋バランス課題の組み合わせ</strong>：寄り目・視線課題にフラミンゴやバランスディスクを組み合わせ段階的に難度を上げる<span class="work-pill">統合ワーク</span></span></div>
@@ -1212,28 +1214,28 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">0:39:19</span><span class="tl-text"><strong>【臨床仮説】回旋方向と寄り目の左右差</strong>：足踏みの回旋方向・寄り目の苦手側・小脳と大脳の左右差を関連づける仮説（講師自身が「仮説・研究中」と明示）</span></div>
         <div class="tl-item"><span class="ts">0:40:05</span><span class="tl-text"><strong>【臨床仮説】片側への感覚入力</strong>：回った側・バランスが苦手な側の足裏・足関節・股関節・頸部などへ感覚入力を加えてから視覚課題を行うアプローチ<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">③ 側弯症のセルフ検査</div>
+        <div class="tl-section">講座7-3｜側弯症のセルフ検査</div>
         <div class="tl-item"><span class="ts">0:44:28</span><span class="tl-text"><strong>機能的側弯と構造的側弯の違い</strong>：痛みなどで一時的に傾く機能的なものと、構築性の変形を区別。病的なものは医療機関で除外</span></div>
         <div class="tl-item"><span class="ts">0:46:22</span><span class="tl-text"><strong>成長期と座位時間の影響</strong>：成長期に座位が長く筋肉の使い方に左右差があることが骨格へ影響し得る。遺伝性もあることに注意</span></div>
         <div class="tl-item"><span class="ts">0:48:55</span><span class="tl-text"><strong>Adamsの前屈テスト（家庭版）</strong>：前屈させ、後方から肋骨隆起・肩の高さ・肩甲骨の突出・ウエストの左右差を確認<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:49:40</span><span class="tl-text"><strong>Cobb角と医療的対応</strong>：レントゲンでCobb角を測る考え方。角度が大きい場合はコルセット・手術など医療的対応。急速進行では早急に受診</span></div>
         <div class="tl-item"><span class="ts">0:52:02</span><span class="tl-text"><strong>カイロプラクティックの位置づけ</strong>：側弯改善へのエビデンスは弱いと明言しつつ、自身の臨床経験として改善例を紹介</span></div>
 
-        <div class="tl-section">④ 外反扁平足のセルフ検査</div>
+        <div class="tl-section">講座7-4｜外反扁平足のセルフ検査</div>
         <div class="tl-item"><span class="ts">0:53:59</span><span class="tl-text"><strong>外反扁平足の観察ポイント</strong>：入浴後などに後方からアキレス腱と踵の傾きを確認。足裏・踵の赤みも観察<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:55:17</span><span class="tl-text"><strong>つま先立ちでアーチを確認</strong>：つま先立ちで土踏まずが出る＝柔軟性扁平足（筋力強化で改善可能）、出にくい＝硬性扁平足（専門評価が必要）<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:55:41</span><span class="tl-text"><strong>幼児期の足アーチ発達</strong>：幼児では脂肪体クッションが多く舟状骨も発達途上。成長とともに構造・筋機能が変化するため過度に心配しない</span></div>
         <div class="tl-item"><span class="ts">0:56:59</span><span class="tl-text"><strong>足元から骨盤・背骨への連鎖</strong>：外反扁平足や荷重差が上位の骨盤・背骨のアンバランスへつながる可能性</span></div>
         <div class="tl-item"><span class="ts">0:58:01</span><span class="tl-text"><strong>膝蓋骨の向きチェック</strong>：立位で膝のお皿が内・外どちらへ向いているかを家庭で観察<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑤ Q&A：側弯・扁平足</div>
+        <div class="tl-section">講座7-5｜Q&A：側弯・扁平足</div>
         <div class="tl-item"><span class="ts">0:58:39</span><span class="tl-text"><strong>Q：ジュニアシートで足がぶらぶら</strong>：車内では背中・臀部・頭部を背もたれで支えることを重視。前へ崩れる猫背姿勢に注意</span></div>
         <div class="tl-item"><span class="ts">1:00:43</span><span class="tl-text"><strong>Q：乳児期の向き癖と左右差</strong>：頸部や股関節の左右差との関連可能性。苦手側へ軽い感覚入力を提案</span></div>
         <div class="tl-item"><span class="ts">1:03:36</span><span class="tl-text"><strong>Q：5歳の外反扁平足とバランスディスク</strong>：ディスクを傾けて代償しないこと。まっすぐ立って足裏を使うことを重視</span></div>
         <div class="tl-item"><span class="ts">1:05:06</span><span class="tl-text"><strong>Q：10歳以降の扁平足</strong>：硬性と柔軟性を分け、柔軟性では弱い筋を見極めて強化する</span></div>
         <div class="tl-item"><span class="ts">1:06:18</span><span class="tl-text"><strong>Q：成人側弯とサイドプランク</strong>：弱い側・矯正方向を考えながら左右のサイドプランクを実施<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑥ 内股・股関節・大腿骨前捻のセルフ検査</div>
+        <div class="tl-section">講座7-6｜内股・股関節・大腿骨前捻のセルフ検査</div>
         <div class="tl-item"><span class="ts">1:09:14</span><span class="tl-text"><strong>内股とW座り（ぺたん座り）</strong>：内股の子に多いW座りは筋力を使わず楽に安定する姿勢。厳しく叱るより別の座り方へ誘導</span></div>
         <div class="tl-item"><span class="ts">1:11:49</span><span class="tl-text"><strong>歩行時の足角度・膝蓋骨方向</strong>：歩行時に足が強く内側へ向く・膝蓋骨が強く内向きの場合を観察ポイントに</span></div>
         <div class="tl-item"><span class="ts">1:12:19</span><span class="tl-text"><strong>股関節内旋・外旋のセルフチェック</strong>：腹臥位で膝を90度曲げ、股関節の内旋・外旋の角度と左右差を確認。年齢による変化があるため継続観察<span class="work-pill">統合ワーク</span></span></div>
@@ -1242,7 +1244,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:20:26</span><span class="tl-text"><strong>家庭で角度を記録する</strong>：分度器で厳密でなくてよい。大まかな角度でも股関節と下腿の向きを記録して経時変化を見る</span></div>
         <div class="tl-item"><span class="ts">1:22:21</span><span class="tl-text"><strong>大腿骨前捻の立位テスト</strong>：片足立ちで体幹を回し、内股方向と外股方向のどちらで安定するかを見る簡易テスト<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">⑦ セルフケア・筋トレ実技</div>
+        <div class="tl-section">講座7-7｜セルフケア・筋トレ実技</div>
         <div class="tl-item"><span class="ts">1:26:40</span><span class="tl-text"><strong>大腿前面・外側のストレッチ</strong>：膝を曲げた状態で大腿前面・外側を伸ばす。膝下・足先の方向を誤ると狙った部位が伸びにくいので注意<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:28:57</span><span class="tl-text"><strong>ハムストリングと骨盤を立てる工夫</strong>：骨盤が後傾しやすいのでタオルを敷く・手を後ろにつくなどで骨盤を立ててからストレッチ<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:31:08</span><span class="tl-text"><strong>足関節背屈の抵抗運動</strong>：足首が内外に逃げずまっすぐ背屈するよう根元を支えて抵抗をかけながら動かす<span class="work-pill">統合ワーク</span></span></div>
@@ -1251,7 +1253,7 @@ nav::-webkit-scrollbar { display: none; }
         <div class="tl-item"><span class="ts">1:34:59</span><span class="tl-text"><strong>荷重下のつま先立ちトレーニング</strong>：階段でつま先立ち。踵が外へ逃げずまっすぐ上がることを確認。目安は7〜8歳以上・運動経験のある子向け<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:36:15</span><span class="tl-text"><strong>長母趾屈筋・長趾屈筋と足部安定</strong>：つま先立ちで後脛骨筋に加え母趾・他趾の屈筋を使い足部全体の安定を促す</span></div>
 
-        <div class="tl-section">⑧ Q&A：セルフケア・姿勢</div>
+        <div class="tl-section">講座7-8｜Q&A：セルフケア・姿勢</div>
         <div class="tl-item"><span class="ts">1:37:06</span><span class="tl-text"><strong>Q：大腿骨前捻と反り腰</strong>：前捻だけで反り腰とは決められない。内股・猫背・反張膝・外反扁平足・原始反射など個々の姿勢戦略で異なる</span></div>
         <div class="tl-item"><span class="ts">1:39:19</span><span class="tl-text"><strong>Q：つま先立ちの開始年齢</strong>：足首・ゴム運動などの基礎動作ができることを前提に目安7〜8歳を提示</span></div>
         <div class="tl-item"><span class="ts">1:40:02</span><span class="tl-text"><strong>Q：食事中に片足を上げる座り方</strong>：骨盤を立てるためではなく何らかの左右差が背景にある可能性。片足立ちなどで左右差を確認</span></div>
@@ -1268,7 +1270,7 @@ nav::-webkit-scrollbar { display: none; }
     <!-- 講座8 -->
     <div class="lesson-card p-teal" onclick="toggleCard(this)">
       <div class="lesson-header">
-        <div class="lesson-num">8</div>
+        <div class="lesson-num">講座<br>8</div>
         <div class="lesson-meta">
           <div class="lesson-title">コーディネーション・かかと着地・SHM・内股</div>
           <div class="lesson-tags">
@@ -1280,42 +1282,48 @@ nav::-webkit-scrollbar { display: none; }
       </div>
       <div class="lesson-body">
 
-        <div class="tl-section">A. 側弯・外反扁平足・内股の復習</div>
+        <div class="tl-section">講座8-1｜側弯・外反扁平足・内股の復習</div>
         <div class="tl-item"><span class="ts">0:00:00</span><span class="tl-text"><strong>講座7の復習：左右差チェック</strong>：側弯・外反扁平足・内股の観察ポイントを再確認。Adamsテスト・足角度・股関節内外旋チェックの振り返り</span></div>
         <div class="tl-item"><span class="ts">0:05:00</span><span class="tl-text"><strong>骨格と動作の連動</strong>：足部・膝・股関節・骨盤・脊柱の連鎖を再整理。一部位だけで判断せず全体の姿勢パターンとして捉える</span></div>
 
-        <div class="tl-section">B. Gallahueの発達モデルとフィードフォワード</div>
+        <div class="tl-section">講座8-2｜Gallahueの発達モデルとフィードフォワード</div>
         <div class="tl-item"><span class="ts">0:10:00</span><span class="tl-text"><strong>Gallahueの運動発達モデル</strong>：反射期→初歩期→基本動作期→専門化期の4段階。子どもの年齢・発達段階に合ったアプローチの重要性</span></div>
         <div class="tl-item"><span class="ts">0:15:00</span><span class="tl-text"><strong>フィードフォワード（予測的姿勢調整）</strong>：転ぶ前に自動的に体幹を安定させる先行的な姿勢制御。脳幹・小脳の成熟と感覚統合が鍵</span></div>
         <div class="tl-item"><span class="ts">0:20:00</span><span class="tl-text"><strong>予測的姿勢調整のトレーニング</strong>：ゆっくりから速い動作へ段階的に移行。成功体験を積み重ねて自動化を促す<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">C. コーディネーショントレーニング実践</div>
+        <div class="tl-section">講座8-3｜コーディネーショントレーニング実践</div>
         <div class="tl-item"><span class="ts">0:25:00</span><span class="tl-text"><strong>忍者歩き（足音を立てない歩行）</strong>：前足部から静かに着地し、股関節・膝・足首の屈曲を使う。固有受容覚と前庭覚の統合<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:32:00</span><span class="tl-text"><strong>ストップ&ゴー（急停止・急発進）</strong>：走りながら合図で即座に止まり・動く。予測的姿勢調整と瞬発力を同時に鍛える<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:40:00</span><span class="tl-text"><strong>風船バレー</strong>：風船を落とさず続ける遊び。視覚追跡・タイミング・全身協調を楽しみながら鍛える<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">0:48:00</span><span class="tl-text"><strong>バランスストーン・凸凹面歩行</strong>：不安定面の上を歩くことで足裏感覚（固有受容覚）と体幹安定を同時に刺激<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">D. かかと着地・SHM・運動連鎖</div>
+        <div class="tl-section">講座8-4｜かかと着地・SHM・運動連鎖</div>
         <div class="tl-item"><span class="ts">0:58:00</span><span class="tl-text"><strong>正常なかかと着地のメカニズム</strong>：踵接地→足底全接地→蹴り出しの流れ。各フェーズで働く筋肉と関節の動きを解説</span></div>
         <div class="tl-item"><span class="ts">1:05:00</span><span class="tl-text"><strong>SHM（Subtalar Hypermobility）とは</strong>：距骨下関節の過剰可動性。外反扁平足・ニーインとの関連。かかと着地時の衝撃吸収が不十分になるメカニズム</span></div>
         <div class="tl-item"><span class="ts">1:12:00</span><span class="tl-text"><strong>運動連鎖のポイント</strong>：足部の問題が膝・股関節・骨盤・脊柱へ波及するパターン。姿勢全体で動作を評価する視点</span></div>
         <div class="tl-item"><span class="ts">1:18:00</span><span class="tl-text"><strong>かかと着地改善のアプローチ</strong>：足裏感覚の入力・足関節可動域・腓腹筋・ヒラメ筋のバランス調整<span class="work-pill">統合ワーク</span></span></div>
 
-        <div class="tl-section">E. 骨盤を止めた腿上げ</div>
+        <div class="tl-section">講座8-5｜骨盤を止めた腿上げ</div>
         <div class="tl-item"><span class="ts">1:25:00</span><span class="tl-text"><strong>骨盤固定での腿上げ</strong>：壁に背中をつけ骨盤を動かさずに腸腰筋を使って腿を上げる。腸腰筋の分離収縮を意識<span class="work-pill">統合ワーク</span></span></div>
         <div class="tl-item"><span class="ts">1:30:00</span><span class="tl-text"><strong>内股改善との関連</strong>：腸腰筋・大殿筋・外旋筋群のバランスを整えることで内股パターンの改善を促す</span></div>
 
-        <div class="tl-section">F. 三輪車と発達</div>
+        <div class="tl-section">講座8-6｜三輪車と発達</div>
         <div class="tl-item"><span class="ts">1:35:00</span><span class="tl-text"><strong>三輪車の発達的意義</strong>：ペダリングによる左右交互運動が体幹・骨盤・股関節の協調を育てる。歩行パターンの発達にも関連</span></div>
         <div class="tl-item"><span class="ts">1:40:00</span><span class="tl-text"><strong>三輪車から自転車へのステップ</strong>：バランス感覚・脚力・協調の発達段階。ストライダー→三輪車→補助輪なし自転車の移行のポイント</span></div>
 
-        <div class="tl-section">G. Q&A・まとめ</div>
+        <div class="tl-section">講座8-7｜Q&A・まとめ</div>
         <div class="tl-item"><span class="ts">1:43:00</span><span class="tl-text"><strong>Q&A：コーディネーション遊びの頻度</strong>：毎日5〜10分の遊び感覚での実践を推奨。無理なく継続することが最優先</span></div>
         <div class="tl-item"><span class="ts">1:46:00</span><span class="tl-text"><strong>今回のまとめ</strong>：発達段階に合ったコーディネーション遊び・かかと着地・SHMの理解・骨盤固定腿上げ・三輪車の意義</span></div>
 
         <div class="tl-section">📝 今回の課題</div>
-        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>課題：コーディネーショントレーニングを1つ実践</strong>：忍者歩き・ストップ&ゴー・風船バレーのうち1つを子どもと実践し、様子をメモしてLINEで提出</span></div>
+        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>課題：子どもの自然な歩行を動画で記録する</strong>：かかと着地を一つの目標として観察。前後・側方から撮影。年齢だけでなく、その子ができる範囲を優先する</span></div>
+        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>撮影のポイント</strong>：自然な歩行を見るため約10歩を確保。横からは子どもを約15m歩かせ、中央部分を撮影する</span></div>
         <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>提出期限</strong>：10月21日まで</span></div>
+
+        <div class="tl-section">⚠️ 講義内の注意事項</div>
+        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【講師の臨床仮説】</strong>：SHM・足関節背屈・かかと着地・下腿回旋・股関節・大腿骨前捻を一連の連鎖として関連づける部分は、講師自身が「僕の仮説」と明示している内容です</span></div>
+        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【医療機関での評価を勧めるサイン】</strong>：片側だけのつま先歩き・片側だけ強い硬さ・痛み・腫れ・片側だけ強い内股・急な歩き方の変化・足が上がりにくい等は専門機関へ</span></div>
+        <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【講義内の見解】</strong>：幼児のインソール・靴幅・テーピング・つま先歩きをトレーニングに使う考え方・年齢ごとの数値や目安は講義内発言を整理したもの。外部文献での再検証はこの資料では行っていません</span></div>
 
       </div>
     </div>
