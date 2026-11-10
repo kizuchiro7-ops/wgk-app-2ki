@@ -714,10 +714,18 @@ nav::-webkit-scrollbar { display: none; }
   </div>
 
   <div class="video-grid">
-    <div style="text-align:center;padding:3rem 1rem;color:var(--text3);">
-      <div style="font-size:32px;margin-bottom:12px;">📹</div>
-      <div style="font-size:14px;font-weight:500;color:var(--text2);margin-bottom:6px;">プロコース アーカイブ動画を準備中です</div>
-      <div style="font-size:12px;">講座終了後、順次アップロードされます。</div>
+    <div class="video-card" data-vcat="pro-archive">
+      <div class="video-thumb-wrap yt-lite" data-videoid="xU2Godke6Po" data-title="二期生プロコース講義１アーカイブ" onclick="playVideo(this)" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;cursor:pointer;background:#1a1917;display:block;">
+        <img src="https://i.ytimg.com/vi/xU2Godke6Po/hqdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/xU2Godke6Po/mqdefault.jpg'" alt="二期生プロコース講義１アーカイブ" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;background:rgba(74,63,186,0.88);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+          <div style="width:0;height:0;border-style:solid;border-width:10px 0 10px 20px;border-color:transparent transparent transparent #fff;margin-left:4px;"></div>
+        </div>
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:6px 10px;background:linear-gradient(transparent,rgba(0,0,0,0.6));font-size:11px;color:#fff;line-height:1.4;">二期生プロコース講義１アーカイブ</div>
+      </div>
+      <div class="video-info">
+        <div class="video-title">子どもの歩き方と発育の学校 二期生プロコース講義１アーカイブ</div>
+        <div class="video-date">2026年11月収録</div>
+      </div>
     </div>
   </div>
 
@@ -2624,10 +2632,109 @@ document.getElementById('videoLink').addEventListener('input', function() {
     </div>
   </a>
 
-  <div style="text-align:center;padding:3rem 1rem;color:var(--text3);">
-    <div style="font-size:32px;margin-bottom:12px;">📚</div>
-    <div style="font-size:14px;font-weight:500;color:var(--text2);margin-bottom:6px;">プロコース 講座マップを準備中です</div>
-    <div style="font-size:12px;">講座開始後、順次追加されます。</div>
+  <!-- プロコース 講座1 -->
+  <div class="pro-lesson-card" onclick="toggleProCard(this)">
+    <div class="pro-lesson-header">
+      <div class="pro-lesson-num">1</div>
+      <div style="flex:1;">
+        <div class="pro-lesson-title">歩行評価・迷路反射・足関節背屈・シーバー病を症例からつなぐ</div>
+        <div style="margin-top:5px;display:flex;flex-wrap:wrap;gap:4px;">
+          <span class="pro-tag pro-tag-key">迷路反射（TLR）</span>
+          <span class="pro-tag pro-tag-key">足関節背屈評価</span>
+          <span class="pro-tag pro-tag-work">シーバー病・踵痛</span>
+        </div>
+      </div>
+      <span class="pro-chevron">&#8964;</span>
+    </div>
+    <div class="pro-lesson-body">
+
+      <div class="tl-section">講座1-1｜導入・歩行観察の基本（00:00〜09:19）</div>
+      <div class="tl-item"><span class="ts">0:00:04</span><span class="tl-text"><strong>プロコース講義1スタート・症例から学ぶ</strong>：つま先歩きとかかとの痛みがある子どもの症例を入口に、評価のつながりを学ぶ構成</span></div>
+      <div class="tl-item"><span class="ts">0:00:57</span><span class="tl-text"><strong>つま先歩きで起こる下腿・もも裏の硬さ</strong>：かかと着地が難しい子ではふくらはぎやもも裏が硬くなっている例が多い【講義内観察】</span></div>
+      <div class="tl-item"><span class="ts">0:01:29</span><span class="tl-text"><strong>今回の柱：歩行分析＋迷路反射</strong>：ママコースで学んだ歩行観察を一段深め、迷路反射と重力下での姿勢保持を結びつけて見る</span></div>
+      <div class="tl-item"><span class="ts">0:02:30</span><span class="tl-text"><strong>前方・後方の迷路反射と姿勢</strong>：前方へ固めるパターン、後方へ反るパターンを姿勢や歩き方・座り方の特徴とつなげて考える【講義内整理】</span></div>
+      <div class="tl-item"><span class="ts">0:03:35</span><span class="tl-text"><strong>シーバー病を「全身のつながり」で考える導入</strong>：かかとの痛みを足だけの問題として見ず、筋緊張・姿勢・歩行との関連を症例から考える</span></div>
+      <div class="tl-item"><span class="ts">0:04:23</span><span class="tl-text"><strong>歩行撮影：平坦な約10m・カメラを動かさない</strong>：前後・側面から固定撮影する基本を復習</span></div>
+      <div class="tl-item"><span class="ts">0:05:08</span><span class="tl-text"><strong>上半身・骨盤・足元・靴を順番に見る</strong>：頭・肩・腕振り→骨盤→膝→足首・接地→足音→靴の順で観察</span></div>
+      <div class="tl-item"><span class="ts">0:06:30</span><span class="tl-text"><strong>前後・側面・裸足/靴の3方向比較</strong>：1か所・1条件だけで決めず、複数の条件で比較することを強調</span></div>
+      <div class="tl-item"><span class="ts">0:08:00</span><span class="tl-text"><strong>問診の入口：「何が気になりますか？」</strong>：保護者の主訴から観察の焦点を絞る問診の進め方</span></div>
+
+      <div class="tl-section">講座1-2｜症例提示・つま先歩きの鑑別（00:09:19〜20:10）</div>
+      <div class="tl-item"><span class="ts">0:09:19</span><span class="tl-text"><strong>症例：かかとの痛み＋つま先歩き傾向</strong>：小学生、スポーツ活動中にかかとが痛くなった症例の提示</span></div>
+      <div class="tl-item"><span class="ts">0:10:30</span><span class="tl-text"><strong>しゃがみ動作で背屈制限を確認</strong>：かかとが浮くか、膝が内側に入るかなどを観察するしゃがみテスト</span></div>
+      <div class="tl-item"><span class="ts">0:11:40</span><span class="tl-text"><strong>福田式足踏みテスト：左右差と回旋を記録</strong>：目を閉じて足踏みし、前後左右の移動と回旋を継続記録する</span></div>
+      <div class="tl-item"><span class="ts">0:13:00</span><span class="tl-text"><strong>問診：痛みがいつから・片側か両側か</strong>：運動との関係、朝・運動後・翌朝の変化、腫れ・熱感・夜間痛を聞く</span></div>
+      <div class="tl-item"><span class="ts">0:14:20</span><span class="tl-text"><strong>痛みとつま先歩きの関係</strong>：かかとが痛いためつま先で歩く代償パターンと、もともとの習慣としてのつま先歩きを区別する</span></div>
+      <div class="tl-item"><span class="ts">0:16:00</span><span class="tl-text"><strong>裸足と靴での背屈を比較</strong>：靴を履くことで背屈制限が見えにくくなる場合があるため、裸足でも確認する</span></div>
+      <div class="tl-item"><span class="ts">0:18:00</span><span class="tl-text"><strong>自動・他動背屈の違いを記録</strong>：自分で動かす自動背屈と、介助して動かす他動背屈の角度を両方記録する</span></div>
+
+      <div class="tl-section">講座1-3｜迷路反射（TLR）を姿勢から読む（00:20:10〜30:00）</div>
+      <div class="tl-item"><span class="ts">0:20:10</span><span class="tl-text"><strong>迷路反射（TLR）の前方・後方パターン</strong>：前庭器官と脳幹が重力を感知するメカニズムと、前方固め・後方反りの2パターンを説明</span></div>
+      <div class="tl-item"><span class="ts">0:22:00</span><span class="tl-text"><strong>姿勢保持への影響</strong>：残存が疑われる子での猫背・反り腰・膝の過伸展・かかと重心などの特徴</span></div>
+      <div class="tl-item"><span class="ts">0:24:00</span><span class="tl-text"><strong>残存サインの観察</strong>：立位での頭位変化（頭を後ろへ倒す・前へ倒す）で全身が同方向へ動くかを確認する簡易テスト【講義内テスト】</span></div>
+      <div class="tl-item"><span class="ts">0:26:00</span><span class="tl-text"><strong>VOR（前庭眼反射）との関連</strong>：一点を見ながら頭を動かす練習と、眼球と頭の協調を評価する方法</span></div>
+      <div class="tl-item"><span class="ts">0:28:00</span><span class="tl-text"><strong>靴のモニタリング：かかとの減り方</strong>：靴底の偏った摩耗から後方重心・内外転の傾向を推察する観察ポイント</span></div>
+
+      <div class="tl-section">講座1-4｜後方重心・筋緊張・足関節背屈評価（00:30:00〜45:00）</div>
+      <div class="tl-item"><span class="ts">0:30:00</span><span class="tl-text"><strong>骨盤後傾とハムストリングスの緊張</strong>：後方TLRパターンでは骨盤が後傾し、もも裏が硬くなりやすい関連を説明</span></div>
+      <div class="tl-item"><span class="ts">0:32:00</span><span class="tl-text"><strong>SLR（下肢伸展挙上）で確認</strong>：仰臥位で膝を伸ばしたまま脚を上げ、ハムストリングスの硬さを評価する方法</span></div>
+      <div class="tl-item"><span class="ts">0:34:00</span><span class="tl-text"><strong>成長期仮説：急激な身長増加と筋の追いつき</strong>：身長が急に伸びる時期に筋・腱の柔軟性が追いつかない可能性を講師仮説として説明【講師の臨床仮説】</span></div>
+      <div class="tl-item"><span class="ts">0:36:00</span><span class="tl-text"><strong>腓腹筋とヒラメ筋を分けて評価</strong>：膝伸展で腓腹筋、膝屈曲でヒラメ筋の影響が大きくなるため、2条件で背屈を記録する</span></div>
+      <div class="tl-item"><span class="ts">0:38:00</span><span class="tl-text"><strong>背屈角度の記録：0°基準で2条件</strong>：足首直角を0°として記録し、膝伸展/屈曲の条件を明記する</span></div>
+      <div class="tl-item"><span class="ts">0:40:00</span><span class="tl-text"><strong>機能的硬さ vs 構造的硬さ</strong>：緊張で硬い「機能的」と骨格・癒着的な「構造的」の違いを鑑別する考え方</span></div>
+      <div class="tl-item"><span class="ts">0:43:00</span><span class="tl-text"><strong>膝や骨盤の代償も同時に観察</strong>：背屈を評価する際に膝が内側へ入る・骨盤が後傾するなどの代償動作も記録する</span></div>
+
+      <div class="tl-section">講座1-5｜シーバー病を症例から考える（00:45:00〜01:01:00）</div>
+      <div class="tl-item"><span class="ts">0:45:00</span><span class="tl-text"><strong>症状と根本要因の区別</strong>：「かかとが痛い」という症状に対し、踵骨成長部への負荷を高めている根本の要因を探る視点</span></div>
+      <div class="tl-item"><span class="ts">0:47:00</span><span class="tl-text"><strong>踵骨成長部とアキレス腱牽引</strong>：成長期の踵骨骨端部にアキレス腱・足底腱膜が牽引力をかける構造的な背景を説明</span></div>
+      <div class="tl-item"><span class="ts">0:49:00</span><span class="tl-text"><strong>靴・足底・外反扁平足との関連</strong>：クッション不足の靴・足底のアーチ低下・かかと内側への倒れ込みが踵骨への負荷を増す可能性</span></div>
+      <div class="tl-item"><span class="ts">0:51:00</span><span class="tl-text"><strong>痛み部位を丁寧に確認</strong>：かかとのどこが痛いか（踵骨後下部・後方・内側）を圧迫で確認し、シーバー病との鑑別に使う</span></div>
+      <div class="tl-item"><span class="ts">0:54:00</span><span class="tl-text"><strong>オスグッドとの関連：成長期の腱牽引</strong>：脛骨粗面（膝下）の痛みと同様に、成長期の骨端部に腱・筋が牽引力をかける共通メカニズム</span></div>
+      <div class="tl-item"><span class="ts">0:57:00</span><span class="tl-text"><strong>年齢・使い方・靴まで包括して見る</strong>：踵痛を年齢だけでなく、身体の使い方・スポーツ強度・靴も含めて観察するまとめ</span></div>
+
+      <div class="tl-section">講座1-6｜痛みの見方・家庭ケア・足部アプローチ（01:01:00〜01:19:30）</div>
+      <div class="tl-item"><span class="ts">1:01:00</span><span class="tl-text"><strong>痛み経過の追い方</strong>：運動後悪化→翌朝改善→また悪化など、痛みの時間変化パターンを継続記録する</span></div>
+      <div class="tl-item"><span class="ts">1:02:30</span><span class="tl-text"><strong>受診サイン：強い痛み・腫れ・夜間痛</strong>：安静時痛・夜間痛・強い腫れ・発熱などがある場合は医療評価を検討するよう説明</span></div>
+      <div class="tl-item"><span class="ts">1:04:00</span><span class="tl-text"><strong>ヒールカップ・ヒールリフト：一時的な負荷軽減</strong>：急性期のかかと痛に対し、カップやリフトで一時的に負荷を減らす位置づけで使う<span class="work-pill">家庭ケア</span></span></div>
+      <div class="tl-item"><span class="ts">1:05:51</span><span class="tl-text"><strong>下腿ケア：膝・足首位置で狙う筋層を変える</strong>：膝や足首の位置を変えながら腓腹筋と深層ヒラメ筋へアプローチする実技<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:07:18</span><span class="tl-text"><strong>外反扁平足では足首をまっすぐ誘導</strong>：背屈時に足が外側へ逃げる子では、内側の硬さも考え足首の方向を整えて動かす【講義内実技】<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:08:13</span><span class="tl-text"><strong>セルフリリース：膝にふくらはぎを当てて足首を動かす</strong>：小学生頃から、自分の体重と膝を使って下腿を圧迫しながら足首を動かす方法<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:10:33</span><span class="tl-text"><strong>小さい子は保護者が圧を補助</strong>：体重が軽く十分な圧がかけにくい子は保護者が押さえて補助する<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:11:13</span><span class="tl-text"><strong>ストレッチ：膝伸展＝腓腹筋、膝屈曲＝ヒラメ筋</strong>：膝条件を変えて下腿後面を伸ばし分ける基本を実演<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:13:39</span><span class="tl-text"><strong>足裏で床をつかむとふくらはぎが伸びる感覚</strong>：足底を能動的に使いながら片脚荷重に近づけることで下腿後面の伸張を高める<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:16:15</span><span class="tl-text"><strong>足関節前方の詰まりと距骨への着目</strong>：背屈時に足首前方が詰まる例では、距骨の位置や動きも評価候補として考える【講師の臨床推論】</span></div>
+      <div class="tl-item"><span class="ts">1:17:23</span><span class="tl-text"><strong>距骨を押さえた前方荷重アプローチ</strong>：足首前方を押さえながら身体を前へ移動し背屈を誘導。痛みが強い場合は行わない【講義内実技】<span class="work-pill">統合ワーク</span></span></div>
+
+      <div class="tl-section">講座1-7｜迷路反射の統合ワーク・ケース経過（01:19:30〜01:28:50）</div>
+      <div class="tl-item"><span class="ts">1:19:30</span><span class="tl-text"><strong>後方パターンには丸まる運動を入れる</strong>：伸展側が優位でスーパーマンが得意な子には、膝抱えや丸まり系の運動を提案【講義内提案】<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:20:45</span><span class="tl-text"><strong>スーパーマン・スターフィッシュ・芋虫</strong>：子どもの得意不得意に応じて、伸展・屈曲・全身の連動を遊びとして使う<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:21:49</span><span class="tl-text"><strong>VOR：一点を見ながら頭を上下左右へ</strong>：眼球を目標に固定しながら頭を動かす。上下方向が苦手な子もいると説明<span class="work-pill">統合ワーク</span></span></div>
+      <div class="tl-item"><span class="ts">1:23:08</span><span class="tl-text"><strong>⚠️ めまい・吐き気・顔色不良は中止サイン</strong>：回転や前庭刺激で気分不良が出る場合は無理に続けず中止する</span></div>
+      <div class="tl-item"><span class="ts">1:24:12</span><span class="tl-text"><strong>症例経過：背屈−15°付近から0°へ</strong>：約1か月の介入後、足関節背屈が直角付近まで変化したと紹介【症例報告】</span></div>
+
+      <div class="tl-section">講座1-8｜保護者への伝え方・講義まとめ（01:28:50〜01:34:20）</div>
+      <div class="tl-item"><span class="ts">1:25:02</span><span class="tl-text"><strong>保護者へ説明する時の言葉選び</strong>：「反射が残っている」「異常」「ずれている」と断定するより、今の動きや硬さを具体的に説明することを勧める</span></div>
+      <div class="tl-item"><span class="ts">1:27:01</span><span class="tl-text"><strong>治すと断言せず、痛みと身体を一緒に見る</strong>：「シーバー病を治す」ではなく、痛みの経過を見ながら身体の使い方も整えるという伝え方を提案</span></div>
+      <div class="tl-item"><span class="ts">1:28:50</span><span class="tl-text"><strong>講義まとめ：迷路反射・前庭・姿勢を問診からつなぐ</strong>：問診やアンケートを入口に、反射・前庭・姿勢・歩行の関連を順番に考える</span></div>
+      <div class="tl-item"><span class="ts">1:30:41</span><span class="tl-text"><strong>背屈評価は0°基準＋膝2条件</strong>：背屈角度の記録と、膝伸展/屈曲で腓腹筋・ヒラメ筋の影響を分ける点を再確認</span></div>
+      <div class="tl-item"><span class="ts">1:31:46</span><span class="tl-text"><strong>シーバー病：年齢・使い方・靴まで見る</strong>：成長期の踵痛を年齢だけでなく身体の使い方・靴も含めて観察するまとめ</span></div>
+      <div class="tl-item"><span class="ts">1:32:40</span><span class="tl-text"><strong>めまい時に足元へ意識を戻す接地刺激</strong>：椅子座位などで床を軽く踏む・叩く刺激が下方への意識を戻す助けになる場合がある【講師の臨床提案】</span></div>
+
+      <div class="tl-section">📝 課題・質疑応答（01:34:20〜01:39:47）</div>
+      <div class="tl-item"><span class="ts">1:33:33</span><span class="tl-text"><strong>課題①：足関節背屈を写真で記録</strong>：膝伸展・膝屈曲の2条件で自動背屈を静止画で撮影。子どもが難しければ自分の足でも可</span></div>
+      <div class="tl-item"><span class="ts">1:34:20</span><span class="tl-text"><strong>課題②：迷路反射の立位テストを側面動画で</strong>：目を閉じて立ち、頭を後方・前方へ動かした時に全身が同方向へ動くかを横から撮影</span></div>
+      <div class="tl-item"><span class="ts">1:35:25</span><span class="tl-text"><strong>テスト結果から丸まり系/伸展系ワークを選ぶ</strong>：後ろへ動く子は丸まり系、前へ動く子は伸展系を候補にする使い分け</span></div>
+      <div class="tl-item"><span class="ts">1:37:06</span><span class="tl-text"><strong>質疑：凹足でも距骨前方・背屈制限をみる</strong>：凹足では足底側が硬く、距骨が前方へ出やすい可能性があるという講師回答【講師の臨床回答】</span></div>
+      <div class="tl-item"><span class="ts">1:37:56</span><span class="tl-text"><strong>質疑：乗り物酔いと迷路反射・前庭系</strong>：乗り物酔いだけで迷路反射残存とは断定できないが、前庭系の弱さを考える手がかりになり得ると回答</span></div>
+      <div class="tl-item"><span class="ts">1:38:43</span><span class="tl-text"><strong>質疑：背屈撮影は膝下にタオルを入れてもよい</strong>：膝を深く曲げなくても膝下にタオルを入れ10〜20°程度曲げ、リラックスした状態で撮影する案</span></div>
+      <div class="tl-item"><span class="ts">1:39:13</span><span class="tl-text"><strong>プロコース1まとめ・今後の案内</strong>：「1つの症状を1か所だけで見ず、反射・姿勢・筋緊張・関節可動域・靴・成長を順番につなぐ」観察の型を学ぶ回と締めくくる</span></div>
+
+      <div class="tl-section">⚠️ 講義内の注意事項</div>
+      <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【講師の仮説・臨床推論】</strong>：成長期仮説、距骨前方への推測、迷路反射残存サインの解釈などは講師自身の臨床推論です。外部の医学的検証は行われていません</span></div>
+      <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【医療機関での評価を勧めるサイン】</strong>：強い痛み・腫れ・夜間痛・発熱・急な悪化がある場合はトレーニングを中止し医療評価を検討してください</span></div>
+      <div class="tl-item"><span class="ts">—</span><span class="tl-text"><strong>【断定を避ける説明】</strong>：「反射が残っている」「骨がずれている」などの断定的な言葉より、「今はこう動いている」「この硬さを一緒に見ていく」という具体的な伝え方を推奨</span></div>
+
+    </div>
   </div>
 
 <!-- 解説動画セクション -->
